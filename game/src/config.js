@@ -1,0 +1,17 @@
+export const STEP = 1 / 60;
+export const SAVE_KEY = 'palmshade-heat-save-v1';
+export const WORLD = { w: 3600, h: 2700, width: 3600, height: 2700 };
+export const ROAD_W = 112;
+export const LANE = 27;
+export const STREETS_X = [300, 900, 1500, 2100, 2700, 3300];
+export const AVENUES_Y = [300, 850, 1400, 1950, 2440];
+export const BEACH_Y = 2548;
+export const WATER_Y = 2636;
+export const PLAYER = { radius: 13, walk: 155, run: 255 };
+export const CAR = { w: 48, h: 23, width: 48, height: 23, radius: 21, accel: 265, brake: 420, reverseMax: 95, drag: 0.55, grip: 7.5 };
+export const POLICE_BY_WANTED = [0, 1, 2, 3, 4, 6];
+export const WANTED_DECAY_SECONDS = 26;
+export const GAME_NAME = 'Palmshade Heat';
+export const CITY_NAME = 'Palmshade City';
+export const PLAYER_NAME = 'Dante Marlowe';
+export const NPC_NAME = 'Rosa Delgado';
